@@ -1,0 +1,140 @@
+@charset "utf-8";//设置编码
+
+.g_sidebar {
+    display: none;
+  }
+  .load {
+    height: 500px;
+  }
+  #main {
+    width: 1008px;
+    margin: 50px auto;
+    min-height: 580px;
+  }
+  .box-pic {
+    width: 600px;
+    height: 450px;
+    overflow: hidden;
+    float: left;
+  }
+  .g_box {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 320px;
+    height: 420px;
+    box-shadow: 0 0 15px rgba(204, 204, 204, .5);
+    float: right;
+    padding: 15px 30px;
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 5px;
+      margin-bottom: 10px;
+    }
+  }
+  .trig {
+    float: right;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-top: 4px;
+    a {
+      text-decoration: underline;
+    }
+  }
+  .form_box {
+    margin-bottom: 30px;
+  }
+  .form {
+    li {
+      h5 {
+        font-size: 14px;
+        color: #999;
+      }
+      span {
+        &.iconfont {
+          display: inline-block;
+          text-align: center;
+          color: #aaa;
+          font-size: 18px;
+          vertical-align: middle;
+          margin: 0 6px;
+        }
+      }
+      input {
+        &.text {
+          width: 240px;
+          padding: 4px 6px;
+          height: 18px;
+          line-height: 18px;
+          overflow: hidden;
+          border: none;
+          border-left: 1px solid #ddd;
+          color: #333;
+          vertical-align: middle;
+          box-shadow: none;
+          margin-left: 2px;
+          -webkit-transition: all .25s ease;
+          -moz-transition: all .25s ease;
+          -ms-transition: all .25s ease;
+          transition: all .25s ease;
+        }
+      }
+      &.text_input {
+        border: 1px solid #ddd;
+        line-height: 18px;
+        padding: 6px;
+        position: relative;
+        margin-bottom: 24px;
+        zoom: 1;
+        input {
+          &:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0 1000px #fff inset;
+          }
+        }
+      }
+      &.last {
+        margin-top: 30px;
+        .btn {
+          height: 50px;
+          width: 100%;
+          text-align: center;
+          color: #fff;
+          letter-spacing: 5px;
+          cursor: pointer;
+          font-size: 18px;
+          border: none;
+        }
+        .disabled {
+          background: #eee url(../css/img/loading.gif) 102px 18px no-repeat;
+          cursor: default;
+          color: #999;
+        }
+      }
+      &.other {
+        input {
+          vertical-align: middle;
+        }
+        a {
+          text-decoration: underline;
+        }
+      }
+      &.error {
+        p {
+          margin-top: -10px;
+          background-color: #fff2f2;
+          border: 1px solid #ff8080;
+          padding: 2px 8px;
+          margin-bottom: 15px;
+          i {
+            color: #f50;
+            margin-right: 4px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+  /* .form li.other {
+      text-align:right;
+  } */
+  
